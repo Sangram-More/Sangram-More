@@ -9,7 +9,7 @@
 ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝    ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
 ```
 
-### `ML Engineer · LLM Systems · MLOps · Data Scientist`
+### `Data Scientist · ML Engineer · LLM Systems · MLOps`
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sangrammore)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sangram-More)
@@ -26,8 +26,6 @@
 ## 🧠 About Me
 
 I'm a Machine Learning engineer and researcher with a deep focus on **LLM systems**, **MLOps**, and **applied deep learning**. I design and build end-to-end intelligent systems — from data ingestion to live serving — with emphasis on robustness, reproducibility, and real-world impact.
-
-Currently completing an **Independent Study at the University of Colorado Boulder** (Spring 2026), where I benchmarked five RAG architectures on SEC 10-K filings from Apple, Microsoft, Alphabet, Meta, and NVIDIA.
 
 My work sits at the intersection of:
 - **LLM & RAG systems** — building, evaluating, and improving retrieval-augmented generation pipelines  
@@ -130,43 +128,6 @@ A **seq2seq NLP system** that translates plain English command descriptions into
 
 ---
 
-### 🔍 RAG-Based SEC Document Search
-> *Vector search over financial filings*
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Sangram-More/RAG-Based-SEC-Document-Search)
-
-A retrieval system for querying SEC filings using embedding-based vector search, enabling natural language access to dense financial document corpora.
-
-🔗 [View Repository](https://github.com/Sangram-More/RAG-Based-SEC-Document-Search)
-
----
-
-### 🩺 Leukemia Detection via Ensemble Learning
-> *Medical imaging · CNN ensembles · Healthcare AI*
-
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://github.com/Sangram-More/DataScienceProjects)
-
-Leveraged pre-trained CNN architectures with **ensemble learning** to classify types of leukemia from microscopy images, addressing the subjectivity and error-prone nature of traditional diagnostic methods.
-
-- Combined multiple CNN models via ensemble voting for improved robustness
-- Targeted accurate, automated classification of leukemia subtypes from white blood cell imagery
-
-🔗 [View Repository](https://github.com/Sangram-More/DataScienceProjects)
-
----
-
-### 🏙️ Real Estate Price Prediction — Indian MegaCities
-> *Feature engineering · XGBoost · Comparative model study*
-
-Predicted property prices across major Indian metropolitan areas using a rigorous comparative study across **Linear Regression, Random Forest, Decision Tree, SVM, XGBoost, and KNN**, with XGBoost achieving the highest accuracy.
-
-- Correlation matrix analysis for feature selection
-- End-to-end pipeline from EDA to deployment-ready model comparison
-
-🔗 [View Repository](https://github.com/Sangram-More/DataScienceProjects)
-
----
-
 ### 📸 Photo Memory Finder
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Sangram-More/Photo-Memory-Finder)
@@ -215,24 +176,13 @@ A Python tool for intelligent photo search and retrieval — surfacing memories 
 
 ---
 
-## 📊 Domains & Focus Areas
-
-```
-🏦  Financial AI          →  RAG over SEC 10-K filings, LLM evaluation frameworks
-📦  MLOps                 →  Drift detection, champion/challenger, automated retraining
-💻  Code Generation       →  Seq2Seq NLP, fine-tuning LLMs on specialized corpora
-🩺  Healthcare AI         →  Ensemble CNNs for medical image classification
-🏙️  Applied ML            →  Real estate prediction, demand forecasting
-🔍  Retrieval Systems     →  Vector DBs, embedding strategies, chunking ablations
-```
-
----
-
 ## 🎓 Education
 
 **University of Colorado Boulder**  
-*Master's Program — Independent Study in LLM Systems (Spring 2026)*  
-*NLP Course — Spring 2025*
+*Master's in Data Science*
+
+**University of Pune**  
+*Bachelor's of Computer Engineering*
 
 ---
 
