@@ -128,6 +128,11 @@ An end-to-end MLOps system built on the [KKBox WSDM 2018](https://www.kaggle.com
 - Production traffic simulated via 5 cohort batches (20% of original data) sent through `/predict` to mirror real-world deployment patterns
 - Drift monitoring: Evidently `DataDriftPreset` exits non-zero when >30% of feature columns drift, automatically triggering retraining via GitHub Actions
 
+**Stack:** `LightGBM` · `DuckDB` · `SHAP` · `DVC` · `MLflow` · `FastAPI` · `Evidently AI` · `Prometheus` · `Grafana` · `Docker Compose` · `GitHub Actions` · `AWS S3/ECR/App Runner (Phase 2)`
+
+🔗 [View Repository](https://github.com/Sangram-More/KKBox-WSDM-churn-prediction)
+
+---
 ---
 
 ### 💻 NLC2CMD — Natural Language to Bash Command Generation
