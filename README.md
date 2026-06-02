@@ -99,6 +99,37 @@ Drift Detected (PSI=1.73)
 
 ---
 
+### 🎵 KKBox WSDM — Customer Churn Prediction (MLOps)
+> *Production-grade MLOps · LightGBM · DuckDB · Drift Monitoring · CI/CD*
+
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/Sangram-More/KKBox-WSDM-churn-prediction)
+[![LightGBM](https://img.shields.io/badge/LightGBM-4.6-2980B9?style=flat-square)](https://lightgbm.readthedocs.io)
+[![MLflow](https://img.shields.io/badge/MLflow-3.12-0194E2?style=flat-square&logo=mlflow&logoColor=white)](https://mlflow.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docker.com)
+
+An end-to-end MLOps system built on the [KKBox WSDM 2018](https://www.kaggle.com/c/kkbox-churn-prediction-challenge) dataset — predicting music streaming subscription churn across **970,960 users** with production-level serving, drift monitoring, and automated retraining.
+
+**Results:**
+
+| Metric | Value |
+|---|---|
+| ROC-AUC | **0.9938** |
+| PR-AUC | **0.9484** |
+| Log Loss | **0.0752** |
+| Recall @ 0.5 | **0.9640** |
+| Dataset | 970,960 users · 8.99% churn rate |
+| Model | LightGBM (500 trees, lr=0.05, max_depth=6) |
+
+**Key design highlights:**
+- `user_logs_v2` (400M+ rows) processed entirely via **DuckDB out-of-core GROUP BY** — no pandas memory bottleneck
+- 20 engineered features across member demographics, transaction behaviour, and listening engagement (including `listening_trend`: last-30d vs prior-30d ratio to capture engagement direction)
+- **Champion/challenger promotion** — challenger must beat current champion log loss by >0.5% before promotion; every decision logged to `metrics/promotion_decision.json`
+- Production traffic simulated via 5 cohort batches (20% of original data) sent through `/predict` to mirror real-world deployment patterns
+- Drift monitoring: Evidently `DataDriftPreset` exits non-zero when >30% of feature columns drift, automatically triggering retraining via GitHub Actions
+
+---
+
 ### 💻 NLC2CMD — Natural Language to Bash Command Generation
 > *NLP Final Project · University of Colorado Boulder · Spring 2025*
 
